@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1703.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaShapes", "AreaShapes\AreaShapes.csproj", "{188D4F63-3CA3-4E5A-B9A2-FD8CC9D5F715}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaShapesTests", "AreaShapesTests\AreaShapesTests.csproj", "{3050CCA1-7355-4BB8-B6E0-B5E5B0121222}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{188D4F63-3CA3-4E5A-B9A2-FD8CC9D5F715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{188D4F63-3CA3-4E5A-B9A2-FD8CC9D5F715}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{188D4F63-3CA3-4E5A-B9A2-FD8CC9D5F715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3050CCA1-7355-4BB8-B6E0-B5E5B0121222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3050CCA1-7355-4BB8-B6E0-B5E5B0121222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3050CCA1-7355-4BB8-B6E0-B5E5B0121222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3050CCA1-7355-4BB8-B6E0-B5E5B0121222}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
