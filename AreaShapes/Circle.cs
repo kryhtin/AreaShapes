@@ -4,14 +4,15 @@ namespace AreaShapes
 {
     public class Circle : Shape
     {
-        readonly ulong radius;
+        readonly double radius;
 
-        public Circle(ulong radius)
+        public Circle(double radius)
         {
+            if (radius <= 0) throw new ArgumentException();
             this.radius = radius;
         }
 
-        public override double Square
+        public override double Area
         {
             get
             {

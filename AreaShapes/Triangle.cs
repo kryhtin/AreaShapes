@@ -5,18 +5,19 @@ namespace AreaShapes
 {
     public class Triangle : Shape, ITriangle
     {
-        public ulong A;
-        public ulong B;
-        public ulong C;
+        public double A;
+        public double B;
+        public double C;
 
-        public Triangle(ulong a, ulong b, ulong c)
+        public Triangle(double a, double b, double c)
         {
+            if ((a <= 0) || (b <= 0) || (c <= 0)) throw new ArgumentException();
             this.A = a;
             this.B = b;
             this.C = c;
         }
 
-        public override double Square
+        public override double Area
         {
             get
             {

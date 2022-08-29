@@ -4,6 +4,6 @@ namespace AreaShapes
 {
     public interface IShape
     {
-        public double Square { get; }
+        public double Area { get; }
     }
 }

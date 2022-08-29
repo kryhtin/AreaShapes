@@ -4,7 +4,6 @@ namespace AreaShapes
 {
     public abstract class Shape : IShape
     {
-        public abstract double Square { get; }
+        public abstract double Area { get; }
     }
 }
-

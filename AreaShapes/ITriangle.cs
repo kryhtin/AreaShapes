@@ -7,4 +7,3 @@ namespace AreaShapes
         bool IsRight();
     }
 }
-
